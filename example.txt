@@ -1,0 +1,11 @@
+Server pre-processing information and handing it back through Jinja
+1. Person(client) <- waiter(HTTP request)  <- cook(server)
+
+
+Versus:
+
+Client making a request to the server 
+and then the server processing that information 
+and then giving back what the client wants
+1. Person (client) -> waiter (HTTP request) -> cook(server)
+2. Person(client) <- waiter(HTTP request)  <- cook(server)
